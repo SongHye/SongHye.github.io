@@ -1,207 +1,62 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <title>SongHye PR</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="SongHye PR, CE">
-  <meta name="author" content="SongHye">
+<!DOCTYPE Markdown>
+ ##Song Hye (Preyja)
 
-  <!--CSS bootstrap-->
-  <link rel="stylesheet" href="/css/bootstrap.css">
-  <link rel="stylesheet" href="/css/bootstrap.min.css">
-  <!--CSS custom -->
-  <link rel="stylesheet" href="/css/style.css">
-  <!--ICON-->
-  <link rel="shortcut icon" href="/picicon/dia-icon.png">
-</head>
+Hi, I'm Hye-Won Song (eng Name:Preyja).
 
-<body>
-  <div class="navbar navbar-default navbar-fixed-top">
-  <div class="container">
-    <div class="navbar-header">
-      <!-- <a href="../" class="navbar-brand">Bootswatch</a> -->
-      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-    </div>
-    <div class="navbar-collapse collapse" id="navbar-main">
-    <ul class="nav navbar-nav">
-      <li><a href="#home" class="active"><i class="fa fa-home"></i> Home</a></li>
-      <!--<li><a href="#profile"><i class="fa fa-male"></i> Profile</a></li>-->
-      <li><a href="#experience"><i class="fa fa-laptop"></i> Self-Directed Activity</a></li>
-      <!--<li><a href="#education"><i class="fa fa-graduation-cap"></i> Education</a></li>-->
-      <!--<li><a href="#skills"><i class="fa fa-gears"></i> Skills</a></li>-->
-      <!--<li><a href="#contact"><i class="fa fa-envelope"></i> Contact</a></li>-->
-    </ul>
-    </div>
-  </div>
-</div>
+I'm a Computer Engineering student based in Jeju, Korea.
 
-<header id="home">
-  <div class="container">
-    <div calss="row">
-        <h1> Song Hye (Preyja) </h1>
-    </div>
+If you click the following icons, you can contact me.
 
-    <div class="profile-pic">
-      <img src="picicon/SongHyePic.PNG">
-    </div>
-    <div class="font-size-5">
-        <p> Hi, I'm Hye-Won Song (eng Name:Preyja).<br> I'm a Computer Engineering student based in Jeju, Korea. </p>
-        <p> If you click the following icons, you can contact me.</p>
-    </div>
-      <ul class="social">
-        <li><a href="https://www.facebook.com/preyja"><img src="/picicon/f-icon.png"></i></a></li>
-        <li><a href="https://twitter.com/_SongHye_" target="_blank"><img src="/picicon/t-icon.png"></i></a></li>
-        <li><a href="https://instagram.com/_hungern_/" target="_blank"><img src="/picicon/insta-icon.png"></i></a></li>
-        <li><a href="https://preyja.blogspot.com" target="_blank"><img src="/picicon/ggblog-icon.png"></i></a></li>
-        <li><a href="https://github.com/SongHye" target="_blank"><img src="/picicon/github-icon.png"></i></a></li>
-      </ul>
-    <div class="row">
-      <div class="col-md-3"></div>
-      <div class="col-md-6">
-          <h3>History</h3>
-          <p class="info"> DongHong Elementry School Graduate <span> •</span> <em class="date"> Feb 2008 </em></p>
-          <p class="info"> Seogwipo-Girls Middle School Graduate <span> •</span> <em class="date"> Feb 2011 </em></p>
-          <p class="info"> Seogwipo-Girls High School Graduate <span> •</span> <em class="date"> Feb 2014</em></p>
-          <p class="info"> Jeju National University <span> •</span> <em class="date"> Feb 2014 - Present</em></p>
-      </div>
-    </div>
+---
+###SNS
+[FACEBOOK](https://www.facebook.com/preyja)
 
-    <li><a href="https://github.com/SongHye" target="_blank"><img src="/picicon/github-icon.png"></i></a></li>
+[TWITTER](https://twitter.com/_SongHye_)
 
-</header>
+[INSTAGRAM](https://instagram.com/_hungern_)
 
-<section id="experience">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6">
-        <h1>Self-Directed Activity</h1>
-      </div>
-    </div>
+[GOOGLE-BLOG](https://preyja.blogspot.com)
 
-    <div class="row">
-      <div class="col-md-3"></div>
-      <div class="col-md-6">
-        <h3>WISET NEW WAVES GIRLS </h3>
-        <p class="info">Team Reset <span> •</span> <em class="date"> April 2014 - Dec 2014</em></p>
-        <p class="info">Team Reset <span> •</span> <em class="date"> April 2015 - Present</em></p>
-      </div>
-    </div>
+[GITHUB](https://github.com/SongHye)
 
-    <div class="row">
-      <div class="col-md-3"></div>
-      <div class="col-md-6">
-          <h3>K-HACKATHON</h3>
-          <p class="info"> Team Dr. Naranja certificate <span> •</span> <em class="date">July 2014</em></p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-3"></div>
-      <div class="col-md-6">
-          <h3>3D Modeling and Printing Curriculum</h3>
-          <p class="info"> certificate <span> •</span> <em class="date">Nov 2014</em></p>
-      </div>
-    </div>
+###History
+ DongHong Elementry School Graduate Feb 2008
 
-    <div class="row">
-      <div class="col-md-3"></div>
-      <div class="col-md-6">
-          <h3>Volunteer Work</h3>
-          <p class="info"> JDC IT Volunteers<span> •</span> <em class="date">Aug 2014</em></p>
-          <p class="info"> WISET MENTOR <span> •</span> <em class="date">July 2014</em></p>
-          <p class="info"> University student -Teenager Education Mentoring <span> •</span> <em class="date">April 2015 - Present</em></p>
-      </div>
-    </div>
+ Seogwipo-Girls Middle School Graduate Feb 2011
 
-    <div class="row">
-      <div class="col-md-3"></div>
-      <div class="col-md-6">
-          <h3>Programing Language</h3>
-          <p class="info"> C <span> •</span> <em class="date"> Mar 2014 - Dec 2014</em></p>
-          <p class="info"> Python<span> •</span> <em class="date"> June 2014 - Nov 2014</em></p>
-          <p class="info"> HTML5, CSS3, javascript <span> •</span> <em class="date"> Aug 2014 - Present</em></p>
-          <p class="info"> Java<span> •</span> <em class="date"> Aug 2014 - Present</em></p>
-          <p class="info"> C++ <span> •</span> <em class="date"> Mar 2015 - Present</em></p>
-      </div>
-    </div>
+ Seogwipo-Girls High School Graduate Feb 2014
 
-    <div class="row">
-      <div class="col-md-3"></div>
-      <div class="col-md-6">
-          <h3>Exersice</h3>
-          <p class="info"> Badminton <span> •</span> <em class="date"> Mar 2011 - Present</em></p>
-          <p class="info"> Table Tennis<span> •</span> <em class="date"> Aug 2014 - Present</em></p>
-          <p class="info"> Bowling <span> •</span> <em class="date"> April 2015 - Present</em></p>
-          <p class="info"> Billiards<span> •</span> <em class="date"> April 2015 - Present</em></p>
-      </div>
-    </div>
+ Jeju National University  Feb 2014 - Present
 
-  </div><!--container-->
-</section>
 
-<!-- Education 준비중
-<section id="education">ㄴ
-  <div class="container">
 
-    <div class="row">
-      <div class="col-md-6">
-        <h1>Education</h1>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-3"></div>
-      <div class="col-md-6">
-        <h3>Business Informatics and e-business</h3>
-        <p class="info">Belgrade Business School (Bachelor of Applied Science) <span>•</span> <em class="date">2010 - 2013</em></p>
+##Self-Directed Activity
 
-        <p>
-        During the studies, which lasted three years, I have acquired a basic knowledge of programming(OOP), databases, computer networks, information systems design, internet marketing, e-business, web development and design. The school is a part of Microsoft DreamSpark, which is a Microsoft program to provide students with software design and development tools at no charge, so we used Visual Studio, MS SQL Server, and other development tools for free. As a programming language we used C#, and ASP.NET framework for web development. One of the most important subjects in the studies were a Databases, where each team worked on the project as a requirement for passing the exam. My team and I worked on "Designing a database for preschool" project. As a requirement for thesis,  I've done an intership in Statistical Office of the Republic of Serbia. Diploma thesis "The Concept of the Blog and the Blogosphere in Serbia" I passed with the highest grade.
-        </p>
-      </div>
-    </div>
+###WISET NEW WAVES GIRLS
+    Team Reset April 2014 - Dec 2014
+    Team Reset April 2015 - Present
 
-    <div class="row">
-      <div class="col-md-3"></div>
-      <div class="col-md-6">
-        <h3>Mechanical technician for computer engineering</h3>
-        <p class="info">Aviation Academy (IV degree) <span>•</span> <em class="date">2006 - 2010</em></p>
 
-        <p>
-        Aviation Academy is the unique school in the region with eighty - eight- year – long tradition of training aviation personnel both in the field of civil and military aviation, certified by the European Aviation Safety Agency (EASA) and The Civil Aviation Directorate of the Republic of Serbia. Learning objectives for a period of four years for Mechanical technician for computer engineering is to train students for correct, accurate, creative and independent work in the form of various calculations, modeling parts, creating engineering drawings on computers, as well as the acquisition of other skills and knowledge in the broad field of mechanical engineering and metalworking.
-        </p>
-      </div>
-    </div>
-  </div>
-</section>
---> <!--Education 준비중-->
+###K-HACKATHON
+    Team Dr. Naranja certificate July 2014
 
-<footer>
-  <div class="container">
-  <div class="row">
-    <div class="col-md-3">
-      <p style="margin-top: 15px;">SongHye ©&nbsp;2015</p>
-    </div>
-    <div class="col-md-3"></div>
-    <div class="col-md-6">
-      <p>Powered by <a href="http://elmaxi.github.io/resume/#home">Miroslav Maksimovic</a> Hosted by
-      <a href="https://github.com">
-        <img src="picicon/github-logo.png" width="100" style="margin-bottom: 5px;" alt="GitHub • Social coding">
-      </a></p>
-    </div>
-  </div>
-  </div>
-</footer>
+###3D Modeling and Printing Curriculum
+    certificate Nov 2014
 
-<!--javascript-->
-<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
-<script src="js/waypoints.min.js"></script>
-<script src="js/bootstrap-progressbar.min.js"></script>
-<script src="js/script.js"></script>
+###Volunteer Work
+    JDC IT Volunteers Aug 2014
+    WISET MENTOR July 2014
+    University student -Teenager Education Mentoring April 2015 - Present
 
-</body>
-</html>
+###Programing Language
+    C Mar 2014 - Dec 2014
+    Python June 2014 - Nov 2014
+    HTML5, CSS3, javascript Aug 2014 - Present
+    Java Aug 2014 - Present
+    C++ Mar 2015 - Present
+
+###Exersice
+    Badminton Mar 2011 - Present
+    Table Tennis Aug 2014 - Present
+    Bowling April 2015 - Present
+    Billiards April 2015 - Present
