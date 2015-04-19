@@ -17,7 +17,7 @@
   3. HEADER
   4. SECTIONS
 //    4.1 Profile
-    4.2 Experience->Self Directed Activity
+    4.2 Experience->Home, Self Directed Activity
 //    4.3 Education.
 //    4.4 Skills
     4.5
@@ -469,7 +469,16 @@ section .row:first-child {
 */
 /*
 ====================================
-########### 4.2 SKILLS #############
+########## 4.3 PROFILE #############
+====================================
+*/
+.font-size-5{font-size:5px;}
+
+
+
+/*
+====================================
+########### 4.4 SKILLS #############
 ====================================
 
 .progress {
@@ -489,6 +498,7 @@ section .row:first-child {
   font-weight: 400;
 }
 */
+
 
 /*
 ====================================
