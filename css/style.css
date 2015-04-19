@@ -146,8 +146,8 @@ header {
   background-size: cover !important;
   -webkit-background-size: cover !important;
   overflow: hidden;
-  background-image: url("/picicon/background-img.png");
-  /*background-color: #2B2B2B;*/
+  /*background-image: url("/picicon/background-img.png");*/
+  background-color: #2B2B2B;
   color: #FFFFFF;
 }
 .cover-heading {
