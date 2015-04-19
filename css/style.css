@@ -472,7 +472,9 @@ section .row:first-child {
 ########## 4.3 PROFILE #############
 ====================================
 */
-.font-size-5{font-size:30px;}
+.font-size-5{
+  font-size:large;
+}
 
 
 
