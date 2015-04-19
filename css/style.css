@@ -40,8 +40,8 @@ html, body {
 body {
   font-family: 'Open Sans', sans-serif;
   padding-top: 60px;
+  margin-top:
 }
-
 
 header h1, section h1 {
   margin-top: 0;
@@ -207,6 +207,7 @@ section {
   border-bottom: 5px dashed #2B2B2B;
 }
 section .container {
+  padding-top:60px;
   padding-bottom: 60px;
 }
 section .row:first-child {
