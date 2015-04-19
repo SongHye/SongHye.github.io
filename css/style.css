@@ -39,7 +39,9 @@ html, body {
 
 body {
   font-family: 'Open Sans', sans-serif;
+  padding-top: 60px;
 }
+
 
 header h1, section h1 {
   margin-top: 0;
