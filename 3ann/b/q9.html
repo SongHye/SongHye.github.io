@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lnag = "kr">
+<head>
+  
+  <title>3주년 - 부여인</title>
+  
+  <link href="/css/custom.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+</head>
+<body>
+  <section>
+    <img src="/img/logo.png" class="qimg" alt="부여인 9번째 문제">
+    <h4>컴퓨터 타이핑 솜씨를 늘리기 위해 가장 많이 사용하였던 소프트웨어<br>
+산성비, 배네치아등의 게임을 통해 타이핑을 연습했음</h4>
+    <form class="mid">
+      <input type="text" id="a" placeholder=" 정답을 입력하세요"> 
+      <input type="submit" id="ipbtn">
+    </form>
+  </section>
+  
+  <script type="text/javascript">
+    console.log('부여인 9번째 문제');
+    
+    var ipbtn = document.getElementById('ipbtn');    
+    ipbtn.addEventListener('click', dosch);
+
+    function dosch() {
+      "use strict";
+
+      var a = document.getElementById('a').value;
+      
+      if (a === "") { alert('답란이 비었습니다.'); }
+        else if ( a === "한메타자") {
+          console.log("정답 : " + a);
+          setTimeout( "location.replace('/b/q10.html');", 0 );
+        }
+        else {
+          console.log("입력된 답 : " + a);
+        }
+    }
+  </script>
+  
+</body>
+</html>

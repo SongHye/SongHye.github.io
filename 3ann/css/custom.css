@@ -1,0 +1,18 @@
+body { background-color: mistyrose; }
+.species { width: 20%; height: 20%; }
+
+h4 {text-align:center}
+.mid { margin: 10% 20% auto 20%;}
+.mid input {
+  border: 1px solid #bcbcbc;
+  border-radius: 0px;
+  -webkit-appearance: none;
+  height: 30px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#a {width: 140px; margin-right: 2%; }
+
+
+.qimg { margin: 10% auto; display: block; width: 70%; height: 70%;}

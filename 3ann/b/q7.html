@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lnag = "kr">
+<head>
+  
+  <title>3주년 - 부여인</title>
+  
+  <link href="/css/custom.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+</head>
+<body>
+  <section>
+    <img src="/img/logo.png" class="qimg" alt="부여인 7번째 문제">
+    <h4>1983년 7월 15일에 발매된 닌텐도 첫 카트리지 교환식 8비트 비디오 게임기<br>
+우리나라에서는 현대 컴보이라는 이름으로 판매됨<br>서드파티 개념의 확립 등 현재 게임기 산업 구조의 표준을 구축</h4>
+    <form class="mid">
+      <input type="text" id="a" placeholder=" 정답을 입력하세요"> 
+      <input type="submit" id="ipbtn">
+    </form>
+  </section>
+  
+  <script type="text/javascript">
+    console.log('부여인 7번째 문제');
+    
+    var ipbtn = document.getElementById('ipbtn');    
+    ipbtn.addEventListener('click', dosch);
+
+    function dosch() {
+      "use strict";
+
+      var a = document.getElementById('a').value;
+      
+      if (a === "") { alert('답란이 비었습니다.'); }
+        else if ( a === "Famicom") {
+          console.log("정답 : " + a);
+          setTimeout( "location.replace('/b/q8.html');", 0 );
+        }
+        else {
+          console.log("입력된 답 : " + a);
+        }
+    }
+  </script>
+  
+</body>
+</html>

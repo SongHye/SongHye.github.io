@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lnag = "kr">
+<head>
+  
+  <title>3주년 - 부여인</title>
+  
+  <link href="/css/custom.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+</head>
+<body>
+  <section>
+    <img src="/img/logo.png" class="qimg" alt="부여인 11번째 문제">
+    <form class="mid">
+      <input type="text" id="a" placeholder=" 정답을 입력하세요"> 
+      <input type="submit" id="ipbtn">
+    </form>
+  </section>
+  
+  <script type="text/javascript">
+    console.log('부여인 11번째 문제');
+    
+    var ipbtn = document.getElementById('ipbtn');    
+    ipbtn.addEventListener('click', dosch);
+
+    function dosch() {
+      "use strict";
+
+      var a = document.getElementById('a').value;
+      
+      if (a === "") { alert('답란이 비었습니다.'); }
+        else if ( a === "안녕") {
+          console.log("정답 : " + a);
+          setTimeout( "location.replace('/b/q12.html');", 0 );
+        }
+        else {
+          console.log("입력된 답 : " + a);
+        }
+    }
+  </script>
+  
+</body>
+</html>

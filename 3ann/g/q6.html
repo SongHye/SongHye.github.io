@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lnag = "kr">
+<head>
+  
+  <title>3주년 - 고려인</title>
+  
+  <link href="/css/custom.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+</head>
+<body>
+  <section>
+    <img src="/img/logo.png" class="qimg" alt="고려인 6번째 문제">
+    <h4>밸브와 HTC의 협력으로 개발중한 가상현실 HMD기기<br>
+두개의 적외선 센서를 이용하여 착용자의 움직임을 파악함Mbr>
+전용 컨트롤러를 이용하여 게임속의 물체와 상호작용 할 수 있음</h4>
+    <form class="mid">
+      <input type="text" id="a" placeholder=" 정답을 입력하세요"> 
+      <input type="submit" id="ipbtn">
+    </form>
+  </section>
+  
+  <script type="text/javascript">
+    console.log('고려인 6번째 문제');
+    
+    var ipbtn = document.getElementById('ipbtn');    
+    ipbtn.addEventListener('click', dosch);
+
+    function dosch() {
+      "use strict";
+
+      var a = document.getElementById('a').value;
+      
+      if (a === "") { alert('답란이 비었습니다.'); }
+        else if ( a === "HTC Vive") {
+          console.log("정답 : " + a);
+          setTimeout( "location.replace('/g/q7.html');", 0 );
+        }
+        else {
+          console.log("입력된 답 : " + a);
+        }
+    }
+  </script>
+  
+</body>
+</html>

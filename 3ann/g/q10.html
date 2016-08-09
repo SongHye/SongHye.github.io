@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lnag = "kr">
+<head>
+  
+  <title>3주년 - 고려인</title>
+  
+  <link href="/css/custom.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+</head>
+<body>
+  <section>
+    <img src="/img/logo.png" class="qimg" alt="고려인 10번째 문제">
+    <h4>놀란 부쉬넬이 &#60;컴퓨터 스페이스 &#62;의 실패를 교훈삼아 개발한 게임은?<br>
+냉전시대 스포츠 외교의 중심이었던 탁구를 바탕으로 제작됨
+</h4>
+    <form class="mid">
+      <input type="text" id="a" placeholder=" 정답을 입력하세요"> 
+      <input type="submit" id="ipbtn">
+    </form>
+  </section>
+  
+  <script type="text/javascript">
+    console.log('고려인 10번째 문제');
+    
+    var ipbtn = document.getElementById('ipbtn');    
+    ipbtn.addEventListener('click', dosch);
+
+    function dosch() {
+      "use strict";
+
+      var a = document.getElementById('a').value;
+      
+      if (a === "") { alert('답란이 비었습니다.'); }
+        else if ( a === "Pong") {
+          console.log("정답 : " + a);
+          setTimeout( "location.replace('/code.html');", 0 );
+        }
+        else {
+          console.log("입력된 답 : " + a);
+        }
+    }
+  </script>
+  
+</body>
+</html>
